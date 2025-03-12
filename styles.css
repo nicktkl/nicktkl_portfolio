@@ -1,5 +1,6 @@
 body {
-    background-color: #4C0027;
+    /* background-color: #4C0027; */
+    background-color: #1f306e;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -9,12 +10,13 @@ body {
 
 hr {
     margin: 1rem 0;
-    border: 1px solid #980F5A;
+    /* border: 1px solid #980F5A; */
+    border: 2px solid #8f3b76;
 }
 
 h1, p, .email-link {
     font-family: "Times New Roman", Times, serif !important;
-    color: #D3D3D3;
+    color: whitesmoke;
 }
 
 .email-link {
@@ -50,21 +52,23 @@ h1, p, .email-link {
 }
 
 .nav-link {
-    color: #D3D3D3 !important;
+    color: whitesmoke !important;
     padding: 0 30px;
     transition: background 0.3s ease-in-out;
 }
 
 .nav-link .active {
-    background: #D3D3D3 !important;
-    color: #980F5A !important;
+    background: whitesmoke !important;
+    /* color: #980F5A !important; */
+    color: #974063 !important;
 }
 
 .index-image {
     margin-right: 1.5rem;
     width: 100px;
     height: 100px;
-    background-color: #980F5A;
+    /* background-color: #980F5A; */
+    background-color: #c7417b;
     clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
     overflow: hidden;
     z-index: 0;
@@ -103,8 +107,43 @@ h1, p, .email-link {
     margin: 0 10px;
 }
 
+.index-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 10px;
+}
+
+.btn-skills {
+    border: none;
+    padding: 4px 6px;
+    border-radius: 5px;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-skills:hover {
+    opacity: 0.8;
+}
+
+.hardware { background-color: #fa7343; }
+.networking { background-color: #3572A5; }
+.electronics { background-color: #b59b00; }
+.arduino { background-color: #606060; }
+.python { background-color: #f34f29; }
+.html { background-color: #b58c00; }
+.css { background-color: #007aff; }
+.bootstrap { background-color: #2583a5; }
+.javascript { background-color: #1e7d50; }
+.sqlalchemy { background-color: #4c4c4c; }
+.mongodb { background-color: #2e7d32; }
+.sqlite { background-color: #3d6cbf; }
+.figma { background-color: #6d26a5; }
+
 .buttons {
-    --color: #980F5A;
+    --color: #8f3b76;
     font-family: "Times New Roman", Times, serif !important;
     text-align: center;
     width: 7em;
@@ -115,7 +154,7 @@ h1, p, .email-link {
     margin: 1rem 0 5px 0;
     font-size: 12px;
     z-index: 1;
-    color: #D3D3D3;
+    color: whitesmoke;
     border: 2px solid var(--color);
     border-radius: 6px;
     position: relative;
@@ -124,7 +163,7 @@ h1, p, .email-link {
 .buttons::before {
     position: absolute;
     content: "";
-    background: var(--color);
+    background: #c7417b;
     width: 150px;
     height: 200px;
     z-index: -1;
