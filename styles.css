@@ -92,24 +92,10 @@ h1, p, .email-link {
     max-width: 475px;
 }
 
-.bi-envelope-fill, .bi-file-earmark-person-fill {
-    color: whitesmoke;
-    font-size: 15px;
-}
-
-.bi-envelope-fill, .bi-file-earmark-person-fill {
-    margin: 0 0.5rem 0 0.5rem;
-}
-
-.bi-linkedin, .bi-github, .bi-discord{
-    color: whitesmoke;
-    font-size: 20px;
-    margin: 0 10px;
-}
-
 .index-skills {
     display: flex;
     flex-wrap: wrap;
+    width: 67%;
     gap: 8px;
     padding: 10px;
 }
@@ -141,6 +127,21 @@ h1, p, .email-link {
 .mongodb { background-color: #2e7d32; }
 .sqlite { background-color: #3d6cbf; }
 .figma { background-color: #6d26a5; }
+
+.bi-envelope-fill, .bi-file-earmark-person-fill {
+    color: whitesmoke;
+    font-size: 15px;
+}
+
+.bi-envelope-fill, .bi-file-earmark-person-fill {
+    margin: 0 0.5rem 0 0.5rem;
+}
+
+.bi-linkedin, .bi-github, .bi-discord{
+    color: whitesmoke;
+    font-size: 20px;
+    margin: 0 10px;
+}
 
 .buttons {
     --color: #8f3b76;
@@ -264,6 +265,10 @@ h1, p, .email-link {
 
     .index-content {
         width: 60%;
+    }
+
+    .index-skills {
+        width: 100%;
     }
 
     h1 {
