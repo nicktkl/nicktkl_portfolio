@@ -1,28 +1,32 @@
 document.addEventListener("DOMContentLoaded", function() {
     const galleryImages = [
-        { title: "Kidocode Internship Project", desc: "This is a project done at Kidocode.",
+        { title: "Kidocode Internship Project", desc: "A project was assigned to create an e-commerce website from sketch.",
             images: [
             "images/project_kidocode/project_kidocode(1).jpg",
             "images/project_kidocode/project_kidocode(2).JPEG",
             "images/project_kidocode/project_kidocode(2).JPEG"
         ]
         },
-        { title: "MSU Final Year Project", images: [
+        { title: "MSU Final Year Project", desc: "This is a project done at Kidocode.",
+            images: [
             "images/project_fyp/project_fyp(1).png",
             "images/project_fyp/project_fyp(2).JPEG",
             "images/project_fyp/project_fyp(3).JPEG"
         ]},
-        { title: "MSU Microprocessor Project", images: [
+        { title: "MSU Microprocessor Project", desc: "This is a project done at Kidocode.",
+            images: [
             "images/msu_microprocesser/msu_microprocesser(1).JPEG",
             "images/msu_microprocesser/msu_microprocesser(2).JPEG",
             "images/msu_microprocesser/msu_microprocesser(3).JPEG"
         ]},
-        { title: "MSU Wellness Activity", images: [
+        { title: "MSU Wellness Activity", desc: "This is a project done at Kidocode.",
+            images: [
             "images/msu_wellness/msu_wellness(1).jpg",
             "images/msu_wellness/msu_wellness(2).jpg",
             "images/msu_wellness/msu_wellness(3).jpg"
         ]},
-        { title: "MSU Entrepreneurship Activity", images: [
+        { title: "MSU Entrepreneurship Activity", desc: "This is a project done at Kidocode.",
+            images: [
             "images/msu_entrepreneurship/msu_entrepreneurship(1).JPEG",
             "images/msu_entrepreneurship/msu_entrepreneurship(2).JPEG",
             "images/msu_entrepreneurship/msu_entrepreneurship(3).JPEG"
