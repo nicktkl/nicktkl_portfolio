@@ -236,7 +236,7 @@ h1, p, .email-link {
 /* MEDIA QUERIES for Mobile */
 @media (max-width: 768px) {
     .nav-container {
-        max-width: 100%;
+        /* max-width: 100%; */
         padding: 10px;
     }
 
@@ -257,7 +257,8 @@ h1, p, .email-link {
     }
 
     .index-container {
-        margin: 3rem auto;
+        flex-direction: column;
+        margin: 3rem 0 1rem 0;
     }
 
     .index-image {
@@ -266,7 +267,8 @@ h1, p, .email-link {
     }
 
     .index-content {
-        width: 60%;
+        width: 100%;
+        margin: 2rem 0 0 0;
     }
 
     .index-skills {
