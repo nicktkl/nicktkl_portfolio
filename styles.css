@@ -58,6 +58,10 @@ h1, p, .email-link {
     transition: background 0.3s ease-in-out;
 }
 
+.index-container {
+    margin: 1rem auto;
+}
+
 .index-image {
     margin-right: 1.5rem;
     width: 125px;
@@ -241,6 +245,10 @@ h1, p, .email-link {
         padding: 5px;
     }
 
+    .nav-container .nav {
+        padding: 0;
+    }
+
     .main-container {
         margin: 4rem auto;
         max-width: 85%;
@@ -249,7 +257,7 @@ h1, p, .email-link {
     }
 
     .index-container {
-        margin: 2rem auto;
+        margin: 3rem auto;
     }
 
     .index-image {
@@ -262,7 +270,7 @@ h1, p, .email-link {
     }
 
     .index-skills {
-        width: 93%;
+        width: 105%;
     }
 
     h1 {
