@@ -93,7 +93,7 @@ h1, p, .email-link {
 .index-skills {
     display: flex;
     flex-wrap: wrap;
-    width: 600px;
+    width: 85%;
     gap: 8px;
     padding: 10px;
 }
@@ -132,7 +132,7 @@ h1, p, .email-link {
 }
 
 .bi-envelope-fill, .bi-file-earmark-person-fill {
-    margin: 0 0.5rem 0 0.5rem;
+    margin: 0 0.5rem 0 0;
 }
 
 .bi-linkedin, .bi-github, .bi-discord{
@@ -150,7 +150,7 @@ h1, p, .email-link {
     line-height: 2em;
     overflow: hidden;
     cursor: pointer;
-    margin: 1rem 0 5px;
+    margin: 1rem 0 0;
     font-size: 12px;
     z-index: 1;
     color: black;
@@ -236,8 +236,8 @@ h1, p, .email-link {
 /* MEDIA QUERIES for Mobile */
 @media (max-width: 768px) {
     .nav-container {
-        /* max-width: 100%; */
-        padding: 10px;
+        width: 90%;
+        padding: 1rem;
     }
 
     .nav-link {
@@ -258,12 +258,13 @@ h1, p, .email-link {
 
     .index-container {
         flex-direction: column;
-        margin: 3rem 0 1rem 0;
+        margin: 2rem auto 1rem auto;
     }
 
     .index-image {
         width: 125px;
         height: 125px;
+        margin: 0 auto;
     }
 
     .index-content {
@@ -313,6 +314,6 @@ h1, p, .email-link {
 
 @media (max-width: 320px) {
     body {
-        width: 145%;
+        width: 100%;
     }
 }
