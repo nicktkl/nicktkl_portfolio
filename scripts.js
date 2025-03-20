@@ -1,36 +1,47 @@
 document.addEventListener("DOMContentLoaded", function() {
     const galleryImages = [
-        { title: "Kidocode Internship Project", desc: "A project was assigned to create an e-commerce website from sketch.",
+        { title: "Kidocode Internship Project", 
+            desc: "Join as a web developer, a project was assigned to create an e-commerce website from sketch. Using HTML, CSS, JavaScript and Bootstrap for the frontend and Python Flask for the backend development",
             images: [
             "images/project_kidocode/project_kidocode(1).jpg",
             "images/project_kidocode/project_kidocode(2).JPEG",
-            "images/project_kidocode/project_kidocode(2).JPEG"
-        ]
-        },
-        { title: "MSU Final Year Project", desc: "This is a project done at Kidocode.",
+            "images/project_kidocode/project_kidocode(3).jpg"
+        ]},
+        { title: "MSU Final Year Project", 
+            desc: "For my final year project in Management and Science University, .",
             images: [
             "images/project_fyp/project_fyp(1).png",
             "images/project_fyp/project_fyp(2).JPEG",
             "images/project_fyp/project_fyp(3).JPEG"
         ]},
-        { title: "MSU Microprocessor Project", desc: "This is a project done at Kidocode.",
+        { title: "MSU Microprocessor Project", 
+            desc: "The final project for 'Microprocesser' subject assignment is to develop .",
             images: [
             "images/msu_microprocesser/msu_microprocesser(1).JPEG",
             "images/msu_microprocesser/msu_microprocesser(2).JPEG",
             "images/msu_microprocesser/msu_microprocesser(3).JPEG"
         ]},
-        { title: "MSU Wellness Activity", desc: "This is a project done at Kidocode.",
+        { title: "MSU Wellness Activity", 
+            desc: "Wellness Management is a Personal Enrichment Competences subject by Management and Science University that tackles the student's health in mental and physical health and reduce health risks as well for each week of a semester. During this subject, a dance choreography is to be performed during the deadline and with that I was able to improve my organizational and communication skills.",
             images: [
             "images/msu_wellness/msu_wellness(1).jpg",
             "images/msu_wellness/msu_wellness(2).jpg",
             "images/msu_wellness/msu_wellness(3).jpg"
         ]},
-        { title: "MSU Entrepreneurship Activity", desc: "This is a project done at Kidocode.",
+        { title: "MSU Entrepreneurship Activity", 
+            desc: "Another Personal Enrichment Competences subject by Management and Science University is entrepreneurship skills, .",
             images: [
             "images/msu_entrepreneurship/msu_entrepreneurship(1).JPEG",
             "images/msu_entrepreneurship/msu_entrepreneurship(2).JPEG",
             "images/msu_entrepreneurship/msu_entrepreneurship(3).JPEG"
         ]},
+        { title: "SG Academy Final Year Project", 
+            desc: "During my diploma years, for my final year project was to develop a hardware system the compentency profile chart on server configuration and computer system security control.",
+            images: [
+            "images/project_sga/project_sga(1).jpg",
+            "images/project_sga/project_sga(2).jpg",
+            "images/project_sga/project_sga(3).jpg"
+        ]}
     ];
     
     document.querySelectorAll('.gallery-item').forEach((item) => {
