@@ -1,32 +1,32 @@
 document.addEventListener("DOMContentLoaded", function() {
     const galleryImages = [
-        { title: "Kidocode Internship Project", 
-            desc: "Join as a web developer, a project was assigned to create an e-commerce website from sketch. Using HTML, CSS, JavaScript and Bootstrap for the frontend and Python Flask for the backend development",
+        { title: 'Kidocode Internship Project', 
+            desc: 'Joined as a web developer, a project was assigned to develop an e-commerce website from sketch. With the use of Figma as the wireframe, HTML, CSS, JavaScript and Bootstrap as the frontend framework, Flask Python and SQLAlchemy as the backend framework. For the deployment we used Amazon Web Service EC2 that has been successfully hosted at <a href="https://13.250.38.106/">https://13.250.38.106</a>.',
             images: [
-            "images/project_kidocode/project_kidocode(1).jpg",
-            "images/project_kidocode/project_kidocode(2).JPEG",
-            "images/project_kidocode/project_kidocode(3).jpg"
+            'images/project_kidocode/project_kidocode(1).jpg',
+            'images/project_kidocode/project_kidocode(2).JPEG',
+            'images/project_kidocode/project_kidocode(3).jpg'
         ]},
-        { title: "MSU Final Year Project", 
-            desc: "For my final year project in Management and Science University, .",
+        { title: 'MSU Final Year Project', 
+            desc: 'For my final year project in Management and Science University (MSU), .',
             images: [
-            "images/project_fyp/project_fyp(1).png",
-            "images/project_fyp/project_fyp(2).JPEG",
-            "images/project_fyp/project_fyp(3).JPEG"
+            'images/project_fyp/project_fyp(1).png',
+            'images/project_fyp/project_fyp(2).JPEG',
+            'images/project_fyp/project_fyp(3).JPEG'
         ]},
-        { title: "MSU Microprocessor Project", 
-            desc: "The final project for 'Microprocesser' subject assignment is to develop .",
+        { title: 'MSU Microprocessor Project', 
+            desc: 'The final project for "Microprocesser" subject assignment is to develop .',
             images: [
-            "images/msu_microprocesser/msu_microprocesser(1).JPEG",
-            "images/msu_microprocesser/msu_microprocesser(2).JPEG",
-            "images/msu_microprocesser/msu_microprocesser(3).JPEG"
+            'images/msu_microprocesser/msu_microprocesser(1).JPEG',
+            'images/msu_microprocesser/msu_microprocesser(2).JPEG',
+            'images/msu_microprocesser/msu_microprocesser(3).JPEG'
         ]},
-        { title: "MSU Wellness Activity", 
-            desc: "Wellness Management is a Personal Enrichment Competences subject by Management and Science University that tackles the student's health in mental and physical health and reduce health risks as well for each week of a semester. During this subject, a dance choreography is to be performed during the deadline and with that I was able to improve my organizational and communication skills.",
+        { title: 'MSU Wellness Activity', 
+            desc: "Wellness Management is a Personal Enrichment Competency subject offered by Management and Science University (MSU), designed to promote students' overall well-being. This course emphasizes the importance of maintaining both mental and physical health through a variety of activities conducted weekly throughout the semester. Its primary objective is to educate students on how to reduce health risks, build healthy habits, and foster a balanced lifestyle. One of the core assignments in this subject was to choreograph and perform a group dance routine by the end of the semester. This performance required collaboration, discipline, and creativity, allowing me to enhance not only my physical fitness but also key soft skills. Throughout this process, I developed stronger organizational and communication abilities by coordinating practice sessions, ensuring team participation, and contributing to the creative direction of the routine. This experience was instrumental in helping me become a more effective team player and a confident communicator.",
             images: [
-            "images/msu_wellness/msu_wellness(1).jpg",
-            "images/msu_wellness/msu_wellness(2).jpg",
-            "images/msu_wellness/msu_wellness(3).jpg"
+            'images/msu_wellness/msu_wellness(1).jpg',
+            'images/msu_wellness/msu_wellness(2).jpg',
+            'images/msu_wellness/msu_wellness(3).jpg'
         ]},
         { title: "MSU Entrepreneurship Activity", 
             desc: "Another Personal Enrichment Competences subject by Management and Science University is entrepreneurship skills, .",
@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const project = galleryImages[index];
 
         modalTitle.textContent = project.title;
-        modalDesc.textContent = project.desc;
+        modalDesc.innerHTML = project.desc;
 
         carouselInner.innerHTML = "";
 
